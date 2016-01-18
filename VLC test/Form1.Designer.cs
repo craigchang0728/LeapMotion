@@ -42,7 +42,7 @@
             this.buttonPlay.TabIndex = 0;
             this.buttonPlay.Text = "play";
             this.buttonPlay.UseVisualStyleBackColor = true;
-            this.buttonPlay.Click += new System.EventHandler(this.buttonPlay_Click);
+            //this.buttonPlay.Click += new System.EventHandler(this.buttonPlay_Click);
             // 
             // palm
             // 

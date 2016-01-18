@@ -13,7 +13,7 @@ using System.Drawing;
 
 namespace VLC_test
 {
-    public partial class Form1 : Form, ILeapEventDelegate
+    public partial class Form1 : Form
     {
         private Controller controller;
         private LeapEventListener listener;
@@ -24,14 +24,15 @@ namespace VLC_test
             
             InitializeComponent();
             //palm.Show();
-            this.controller = new Controller();
+            /*this.controller = new Controller();
             this.listener = new LeapEventListener(this);
             this.controller.AddListener(listener);
-            palmCursor = new Cursor(Cursor.Current.Handle);
-            backgroundTracking = new BackGroundTracking(this.controller);
+            */
+             //palmCursor = new Cursor(Cursor.Current.Handle);
+            backgroundTracking = new BackGroundTracking(this);
             
         }
-
+        /*
         delegate void LeapEventDelegate(string EventName);
         public void LeapEventNotification(string EventName)
         {
@@ -151,13 +152,13 @@ namespace VLC_test
 
 
         }
-
+*/
     }//  end of class Form1
 
 
 
 
-
+    /*
     public interface ILeapEventDelegate
     {
         void LeapEventNotification(string EventName);
@@ -195,7 +196,7 @@ namespace VLC_test
         }
     }
 
-
+    */
 
 
 }
