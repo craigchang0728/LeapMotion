@@ -1,0 +1,20 @@
+c:\users\craig\documents\visual studio 2013\Projects\VLC test\VLC test\bin\Debug\VLC test.exe.config
+C:\Users\craig\documents\visual studio 2013\Projects\VLC test\VLC test\obj\Debug\Interop.AXVLC.dll
+C:\Users\craig\documents\visual studio 2013\Projects\VLC test\VLC test\obj\Debug\VLC test.csproj.ResolveComReference.cache
+C:\Users\craig\documents\visual studio 2013\Projects\VLC test\VLC test\bin\Debug\VLC test.exe
+C:\Users\craig\documents\visual studio 2013\Projects\VLC test\VLC test\bin\Debug\VLC test.pdb
+C:\Users\craig\documents\visual studio 2013\Projects\VLC test\VLC test\bin\Debug\LeapCSharp.NET4.0.dll
+C:\Users\craig\documents\visual studio 2013\Projects\VLC test\VLC test\obj\Debug\VLC_test.Form1.resources
+C:\Users\craig\documents\visual studio 2013\Projects\VLC test\VLC test\obj\Debug\VLC_test.Properties.Resources.resources
+C:\Users\craig\documents\visual studio 2013\Projects\VLC test\VLC test\obj\Debug\VLC test.csproj.GenerateResource.Cache
+C:\Users\craig\documents\visual studio 2013\Projects\VLC test\VLC test\obj\Debug\VLC test.exe
+C:\Users\craig\documents\visual studio 2013\Projects\VLC test\VLC test\obj\Debug\VLC test.pdb
+C:\Users\craig\documents\visual studio 2013\Projects\VLC test\VLC test\obj\Debug\AxInterop.AXVLC.dll
+C:\Users\craig\Documents\Visual Studio 2013\Projects\VLC test\VLC test\obj\Debug\VLC_test.MovieForm.resources
+C:\Users\craig\Documents\Visual Studio 2013\Projects\VLC test\VLC test\bin\Debug\Interop.AXVLC.dll
+C:\Users\craig\Documents\Visual Studio 2013\Projects\VLC test\VLC test\bin\Debug\AxInterop.AXVLC.dll
+C:\Users\craig\documents\visual studio 2013\Projects\VLC test\VLC test\obj\Debug\VLC test.csprojResolveAssemblyReference.cache
+C:\Users\craig\documents\visual studio 2013\Projects\VLC test\VLC test\bin\Debug\Vlc.DotNet.Core.dll
+C:\Users\craig\documents\visual studio 2013\Projects\VLC test\VLC test\bin\Debug\Vlc.DotNet.Core.Interops.dll
+C:\Users\craig\documents\visual studio 2013\Projects\VLC test\VLC test\bin\Debug\Vlc.DotNet.Forms.dll
+C:\Users\craig\documents\visual studio 2013\Projects\VLC test\VLC test\bin\Debug\Vlc.DotNet.Wpf.dll
