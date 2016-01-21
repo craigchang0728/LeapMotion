@@ -73,6 +73,7 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="cMovie.cs" />
+    <Compile Include="LeapListener.cs" />
     <Compile Include="movieForm.cs">
       <SubType>Form</SubType>
     </Compile>

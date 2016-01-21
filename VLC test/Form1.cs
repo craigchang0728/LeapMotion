@@ -9,26 +9,20 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Leap;
 using System.Diagnostics;
-using System.Drawing;
+
 
 namespace VLC_test
 {
     public partial class Form1 : Form
     {
         private Controller controller;
-        private LeapEventListener listener;
         private BackGroundTracking backgroundTracking;
         Cursor palmCursor;
         public Form1()
         {
             
             InitializeComponent();
-            //palm.Show();
-            /*this.controller = new Controller();
-            this.listener = new LeapEventListener(this);
-            this.controller.AddListener(listener);
-            */
-             //palmCursor = new Cursor(Cursor.Current.Handle);
+           
             backgroundTracking = new BackGroundTracking(this);
             
         }
