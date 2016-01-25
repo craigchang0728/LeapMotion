@@ -63,8 +63,9 @@ namespace VLC_test
         void connectHandler()
         {
             this.leapController.EnableGesture(Gesture.GestureType.TYPE_CIRCLE);
-            this.leapController.Config.SetFloat("Gesture.Circle.MinRadius", 40.0f);
+            //this.leapController.Config.SetFloat("Gesture.Circle.MinRadius", 40.0f);
             this.leapController.EnableGesture(Gesture.GestureType.TYPE_SWIPE);
+            
         }
 
        

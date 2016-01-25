@@ -41,18 +41,30 @@ namespace VLC_test
                 //movingPalm((int)handlist[0].StabilizedPalmPosition.x, (int)handlist[0].StabilizedPalmPosition.y);
                 
 
-                if (!gestureList.IsEmpty)
+                if (gestureList.IsEmpty)
                 {
+                    //MessageBox.Show("yaaaaa");
                     gestureCount = gestureList.Count;
                     switch (gestureList[gestureCount - 1].Type)
                     {
                         case Gesture.GestureType.TYPE_SWIPE:
-
-                            Form movieForm = new MovieForm();
-                            movieForm.ShowDialog();
+                            MessageBox.Show("Swipe");
+                            //Form movieForm = new MovieForm();
+                            //movieForm.ShowDialog();
 
                             break;
+                        
+                        case Gesture.GestureType.TYPE_CIRCLE:
+                            
+                            Panel x = targetForm.Controls.Find("mainPanel", true).FirstOrDefault() as Panel;
+                            x.VerticalScroll.Value -= 5;
+                            
+                            x.PerformLayout();
+                        //targetForm.VerticalScroll.Value -= targetForm.VerticalScroll.SmallChange;
+                            //targetForm.PerformLayout();
+                            break;
                         default:
+                            //MessageBox.Show("yaaaaa");
                             break;
                     }
 
